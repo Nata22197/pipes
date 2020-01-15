@@ -9,6 +9,8 @@ export class AppComponent {
   title = 'pipes';
 
   nombre_apellido = 'Natanael Acosta';
+  
+  nombre_ = 'Pedro AlfOnso EsTEfano De GreGOrio RoDRigUez';
 
   arreglo = [1,2,3,4,5,6,7,8,9,10];
 
@@ -31,4 +33,12 @@ export class AppComponent {
   valorDePromesa = new Promise( (resolve, reject)=> {
     setTimeout(() => resolve('Llego la data!'), 3500);
   });
+
+  fecha = new Date();
+
+  video = "mOeSfOJrUIk";
+  
+  activar:boolean = true;
+
+  password = "EstoEsUnPassword";
 }
